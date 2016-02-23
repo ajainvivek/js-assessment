@@ -13,7 +13,7 @@ describe('numbers', function() {
     });
 
     it('you should be able to return the base10 representation of a binary string', function() {
-      expect(numbersAnswers.base10('11000000')).to.eql(192);
+        expect(numbersAnswers.base10('11000000')).to.eql(192);
     });
 
     it('you should be able to convert an eight-bit number to a binary string', function() {
